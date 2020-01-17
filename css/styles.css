@@ -13,6 +13,7 @@ p {
     color: black;
   }
 
+
 body {
     background-color: ##F8F8FF;
     text-align: center;
@@ -46,6 +47,11 @@ ul {
     width: 33.33%;
   }
   
+.intro {
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+  } 
   /* Clear floats after the columns */
 
 .row1:after {
@@ -55,6 +61,13 @@ ul {
   }
 
 .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+
+  .row3:after {
     content: "";
     display: table;
     clear: both;
